@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="config.fsx" />
+    <None Include="data\data.csv" />
+    <Compile Include="Program.fsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="25.0.0" />
+    <PackageReference Include="FSharp.Charting" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Chart.Controls" Version="4.0.0.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="OxyPlot.WindowsForms" Version="2.1.0-Preview1" />
+    <PackageReference Include="System.Windows.Forms" Version="4.0.0.0" />
+    <PackageReference Include="System.Windows.Forms.DataVisualization" Version="1.0.0-prerelease.20110.1" />
+    <PackageReference Include="XPlot.GoogleCharts" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
